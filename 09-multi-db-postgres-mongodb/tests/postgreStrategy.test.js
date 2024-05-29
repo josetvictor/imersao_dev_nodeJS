@@ -36,7 +36,7 @@ describe('Postgres strategy', function() {
         assert.deepEqual(result, MOCK_HEROI_CADASTRAR)
     })
 
-    it.only('Deve atualizar um heroi pelo id', async () => {
+    it('Deve atualizar um heroi pelo id', async () => {
         const itemAtualizar = await context.read({nome: MOCK_HEROI_ATUALIZAR.nome})
         const novoItem = {
             ...MOCK_HEROI_ATUALIZAR,
