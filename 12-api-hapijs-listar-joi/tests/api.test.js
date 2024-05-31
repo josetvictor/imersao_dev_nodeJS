@@ -3,7 +3,7 @@ const api = require('../src/api')
 
 let app = {}
 
-describe('Suite de teste da API de Herois', function() {
+describe.only('Suite de teste da API de Herois', function() {
     this.beforeAll(async () => {
         app = await api
     })
@@ -43,8 +43,7 @@ describe('Suite de teste da API de Herois', function() {
             url: `/herois?skip=0&limit=${TAMANHO_LIMITE}`
         })
 
-        assert.deepEqual(result.payload, 'Error interno no servidor')
-        
+        assert.deepEqual(result.statusCode, 400)
     })
 
     it('listar herois com um nome Especifico', async () => {
