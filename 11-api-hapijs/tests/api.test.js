@@ -36,6 +36,17 @@ describe.only('Suite de teste da API de Herois', function() {
         
     })
 
+    it('retornar um erro com o tamanho limite errado', async () => {
+        const TAMANHO_LIMITE = 'AEE'
+        const result = await app.inject({
+            method: 'GET',
+            url: `/herois?skip=0&limit=${TAMANHO_LIMITE}`
+        })
+
+        assert.deepEqual(result.payload, 'Error interno no servidor')
+        
+    })
+
     it('listar herois com um nome Especifico', async () => {
         const NAME = 'Flash'
         const result = await app.inject({

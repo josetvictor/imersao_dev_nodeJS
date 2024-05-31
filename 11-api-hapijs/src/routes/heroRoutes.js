@@ -24,7 +24,7 @@ class HeroRoutes extends BaseRoute {
                     }
 
                     if(isNaN(skip))
-                        throw Error('O tipo do skip ~e incorreto')
+                        throw Error('O tipo do skip é incorreto')
 
                     if(isNaN(limit))
                         throw Error('O tipo do limit é incorreto')
@@ -32,7 +32,7 @@ class HeroRoutes extends BaseRoute {
                     return this.db.read(query, parseInt(skip), parseInt(limit))
                 } catch (error) {
                     console.log('Deu ruim!!', error)
-                    return "Erro interno no servidor"
+                    return "Error interno no servidor"
                 }
             }
         }
