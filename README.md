@@ -1,48 +1,21 @@
 [JAVASCRIPT__BADGE]: https://img.shields.io/badge/Javascript-000?style=for-the-badge&logo=javascript
+[MOCHA__BADGE]: https://img.shields.io/badge/mocha-000?style=for-the-badge&logo=mocha
+[MONGODB__BADGE]: https://img.shields.io/badge/mongodb-000?style=for-the-badge&logo=mongodb
+[POSTGRES__BADGE]: https://img.shields.io/badge/postgresql-000?style=for-the-badge&logo=postgresql
+[HAPIJS__BADGE]: https://img.shields.io/badge/hapijs-000?style=for-the-badge&logo=hapijs
 
 <h1 align="center" style="font-weight: bold;">Imersão em desenvolvimento com Node.JS #NodeBR 💻</h1>
 
 ![javascript][JAVASCRIPT__BADGE]
+![mocha][MOCHA__BADGE]
+![mongodb][MONGODB__BADGE]
+![postgres][POSTGRES__BADGE]
+![hapijs][HAPIJS__BADGE]
 
 <p align="center">
- <a href="#started">Getting Started</a> • 
- <a href="#contribute">Contribute</a>
-</p>
-
-<p align="center">
-  <b>Simple description of what your project do or how to use it.</b>
+  <b>Esse repositorio se concentra a imersão NodeJS minitrado pelo @erickwendel. Realizei essa imersão para fazer uma revisão dos meus conhecimentos de node e javascript</b>
 </p>
 
 <h2 id="started">🚀 Getting started</h2>
 
-Here you describe how to run your project locally
-
-<h3>Prerequisites</h3>
-
-Here you list all prerequisites necessary for running your project. For example:
-
-- [NodeJS](https://github.com/)
-- [Git 2](https://github.com)
-
-<h3>Cloning</h3>
-
-How to clone your project
-
-```bash
-git clone your-project-url-in-github
-```
-
-<h3>Starting</h3>
-
-How to start your project
-
-```bash
-cd project-name
-npm some-command-to-run
-```
-
-<h3>Documentations that might help</h3>
-
-[📝 How to create a Pull Request](https://www.atlassian.com/br/git/tutorials/making-a-pull-request)
-
-[💾 Commit pattern](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
+Nesse projeto foi abordado conceitos basicos de javascript, testes unitarios com mocha, multibanco de dados utilizando Mongodb e postgres e o uso de um framework chamado hapijs.
